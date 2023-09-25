@@ -5,10 +5,8 @@ public class PemilihanPercobaan105 {
     Scanner input05 = new Scanner(System.in);
     System.out.println("Masukan Angka: ");
     int angka = input05.nextInt();
-    if (angka %2 == 0)
-    System.out.println("Angka "+angka+" Bilangan Genap");
-    else
-    System.out.println("Angka "+angka+" Bilangan Ganjil");
+    String hasil = (angka %2 == 0) ? "Angka" +angka+ "Bilangan Genap" : "Angka" +angka+ "Bilangan Ganjil";
+    System.out.println(hasil);
     }
     
 }
